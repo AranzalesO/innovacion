@@ -291,3 +291,21 @@ footer .legal-footer a:first-child {
     font-size: 1.2rem;
     font-weight: bolder;
 }
+
+/*Media queries*/
+@media (min-width: 900px) {
+    .jumbotron {
+      height: 59rem;
+      margin: 7px 0 7px 5.3%;
+    }
+
+    main .right-container {
+        height: 58.3rem;
+    }
+}
+
+@media (max-width: 500px) {
+    main .right-container, .left-container {
+        width: 100%;
+    }
+}
